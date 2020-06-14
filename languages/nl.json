@@ -1,0 +1,7 @@
+{
+    "plugin-data":
+    {
+        "name": "Add Copy",
+        "description": "Deze simple plugin voegt een kopieer button toe aan elke pre tag."
+    }
+}
