@@ -6,7 +6,8 @@ for (var i = 0; i < pre.length; i++) {
     button.className = 'copy-button';
     button.setAttribute('data-clipboard-target','.codesnippet');
     button.textContent = 'Kopiëren';
-    pre[i].parentNode.appendChild(button);
+    //pre[i].parentNode.appendChild(button);
+    pre[i].parentNode.insertBefore(button, pre[i].nextSibling);
 }
 
 var copyCode = new ClipboardJS('.copy-button');
